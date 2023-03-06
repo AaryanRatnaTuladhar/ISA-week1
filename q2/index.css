@@ -1,0 +1,115 @@
+
+ul{
+    list-style-type:none;
+    margin: 0 0 0 100px;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+}
+
+li{
+    float:right;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    background-color:white;
+    color: black;
+    text-align:left;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+}
+
+li a:hover{
+    color:white;
+    background-color: #3d54ff;
+}
+
+nav input[type=text] {
+    float: right;
+    padding: 6px;
+
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+
+img{
+    margin-top: 10px;
+    width: auto;
+    height: 50px;
+    background-size:cover;
+    display: block;
+    margin-left: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(#3d54ff,#19ff75,rgb(253, 253, 84),rgb(249, 64, 64));
+}
+
+nav{
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.logo img{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav a{
+    width: 100px;
+    height: 25px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#Home{
+    margin: 10px;
+    padding: 10px;
+}
+
+#About{
+    margin: 10px;
+    padding: 10px;
+}
+
+#Service{
+    margin: 10px;
+    padding: 10px;
+}
+
+#Contact{
+    margin: 10px;
+    padding: 10px;
+}
+
+.form{margin-bottom:1px;width:50vh;background-color: white;border-radius: 1vh;padding: 1vh;border: 1px;}
+
+label{margin-bottom:10px;font-weight: 600;}
+
+.icons{
+    display: block;
+}
+
+.fa-facebook{
+    margin-right: 5vh;
+}
+
+footer{
+    margin: 10px;
+    padding: 10px;
+}
+
+p{
+    font-size: large;
+}
